@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+.dark {
+  --color-bg: var(--color-bg-dark);
+  --color-text: var(--color-text-dark);
+}
+
+body {
+  background-color: var(--color-bg-light);
+  color: var(--color-text-light);
+}
+
+.dark body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}

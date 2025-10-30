@@ -79,11 +79,9 @@
 
 <script setup>
 import Lenis from 'lenis'
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/all';
+
 import Magnetic from './Effects/Magnetic.vue';
 
-gsap.registerPlugin(ScrollTrigger)
 
 
 onMounted(() => {
